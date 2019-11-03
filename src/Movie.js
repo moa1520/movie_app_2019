@@ -30,7 +30,7 @@ function Movie({
                     }
                 </ul>
                 <p className='movie_summary'>
-                    {summary}
+                    {summary.slice(0, 180)}...
                 </p>
             </div>
         </div>
